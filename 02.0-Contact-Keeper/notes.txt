@@ -9,3 +9,6 @@ Dependencies:
 Dev Dependencies:
 - npm install -D nodemon      - (keeps watching server so we don't need to restart server)
 - npm install -D concurrently - (allows us to run front & back end react servers at the same time)
+
+
+'/config/default.json' file is For Global Variables
