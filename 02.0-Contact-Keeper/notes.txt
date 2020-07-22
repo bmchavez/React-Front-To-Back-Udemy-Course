@@ -21,3 +21,9 @@ To Create React App:
 - npm start                       - Starts React app server
 
 - npm run dev                     - Starts Concurrently server. Make sure you have updated package.json files!
+
+React Dependencies (Be sure to install these in the client folder!):
+- npm install axios               - Use as HTTP client
+- npm install react-router-dom    - 
+- npm install uuid                - ID generator
+- npm install react-transition-group    - Animation
