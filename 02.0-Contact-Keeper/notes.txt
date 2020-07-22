@@ -1,14 +1,23 @@
 Dependencies:
-- npm install express       - (Web Framerwork for routing)
-- npm install bcryptjs      - (Hashing the passwords)
-- npm install jsonwebtoken  - (for authentication)
-- npm install config        - (for global variables)
+- npm install express             - (Web Framerwork for routing)
+- npm install bcryptjs            - (Hashing the passwords)
+- npm install jsonwebtoken        - (for authentication)
+- npm install config              - (for global variables)
 - npm install express-validator   - (validate body data coming in)
-- npm install mongoose      - (abstraction layer to allow us to work with database and create models)
+- npm install mongoose            - (abstraction layer to allow us to work with database and create models)
 
 Dev Dependencies:
-- npm install -D nodemon      - (keeps watching server so we don't need to restart server)
-- npm install -D concurrently - (allows us to run front & back end react servers at the same time)
+- npm install -D nodemon          - (keeps watching server so we don't need to restart server)
+- npm install -D concurrently     - (allows us to run front & back end react servers at the same time)
 
 
 '/config/default.json' file is For Global Variables
+
+- npm run server                  - Starts Backend Server with nodemon
+
+
+To Create React App:
+- npx create-react-app client     - Creates app in new "client" folder
+- npm start                       - Starts React app server
+
+- npm run dev                     - Starts Concurrently server. Make sure you have updated package.json files!
