@@ -50,7 +50,7 @@ router.post(
       // res.send('User Saved');
       const payload = {
         user: {
-          id: user.id,
+          id: user._id,
         },
       };
 
